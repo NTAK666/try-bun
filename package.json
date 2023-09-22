@@ -17,5 +17,9 @@
     "better-sqlite3": "^8.6.0",
     "drizzle-orm": "^0.28.6",
     "elysia": "^0.6.22"
+  },
+  "scripts": {
+    "dev": "bun run src/index.tsx",
+    "lint": "bunx oxlint@latest ."
   }
 }
